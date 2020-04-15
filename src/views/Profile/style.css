@@ -1,0 +1,31 @@
+.profile {
+  background-color: #545e75;
+  color: white;
+}
+
+.avatar {
+  height: 25vmin;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.pr-name, .pr-headline {
+  margin: 0;
+}
+
+.pr-headline {
+  max-width: 60vmin;
+}
+
+.down-arrow {
+  margin-top: 2vmin;
+  height: 6vmin;
+  cursor: pointer;
+  min-height: 30px;
+  transition: transform .2s ease-in-out;
+}
+
+.down-arrow:hover, .down-arrow:focus, .down-arrow:active {
+  transform: scale(1.1);
+  fill: #91c499;
+}

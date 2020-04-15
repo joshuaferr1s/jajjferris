@@ -1,0 +1,31 @@
+.portfolio {
+  background-color: #80a1c1;
+  color: rgb(212, 221, 221);
+}
+
+.my-text {
+  width: 70%;
+}
+
+.my-link {
+  /* color: #a3df90; */
+  color: #f2e9dc;
+}
+
+.my-link:hover, .my-link:active, .my-link:focus {
+  color: rgb(6, 68, 55);
+}
+
+@media only screen and (max-width: 800px) {
+  .portfolio {
+    padding-bottom: 10vmin;
+  }
+
+  .my-title {
+    margin: 5vmin 0;
+  }
+
+  .my-text {
+    width: 90%;
+  }
+}

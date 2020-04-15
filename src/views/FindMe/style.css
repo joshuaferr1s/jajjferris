@@ -1,0 +1,28 @@
+.find-me {
+  background-color: #f2e9dc;
+  color: #595959;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+}
+
+.social {
+  margin: 0 3vmin;
+  height: 5vmin;
+  width: 5vmin;
+  min-height: 30px;
+  min-width: 30px;
+  cursor: pointer;
+}
+
+.social-image {
+  height: 100%;
+  min-height: 30px;
+}
+
+.social-image:hover, .social-image:focus, .social-image:active {
+  transform: scale(1.1);
+  fill: #91c499;
+}
