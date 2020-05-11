@@ -5,7 +5,7 @@ import DownArrow from '../../components/DownArrow';
 
 function MyStory() {
   return (
-    <div className="container portfolio" id="my-story">
+    <div className="container my-story" id="my-story">
       <h1 className="my-title">My Story</h1>
       <p className="my-text text-center">
         I was born and raised in the United Kingdom. Throughout high school, I spent my time studying mathematics and programming text based RPG games in Batch, Python, and Javascript. I attended the University of York to get my bachelors in mathematics, in which I obtained an upper second-class.

@@ -5,6 +5,7 @@ import GithubIcon from '../../components/GithubIcon';
 import LinkedinIcon from '../../components/LinkedinIcon';
 import EmailIcon from '../../components/EmailIcon';
 import ResumeIcon from '../../components/ResumeIcon';
+import PaymentIcon from '../../components/PaymentIcon';
 
 function FindMe() {
   return (
@@ -15,6 +16,7 @@ function FindMe() {
         <LinkedinIcon />
         <EmailIcon />
         <ResumeIcon />
+        <PaymentIcon />
       </div>
     </div>
   );

@@ -1,0 +1,106 @@
+.payments {
+  background-color: #f2e9dc;
+  color: #595959;
+  font-size: 1em;
+  font-family: "Source Code Pro", monospace;
+  letter-spacing: 0.025em;
+}
+
+.pay-info {
+  width: 50%;
+}
+
+.alert {
+  box-sizing: border-box;
+  width: 50%;
+  background: #fff;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
+.success {
+  color: #4F8A10;
+  background-color: #DFF2BF;
+}
+
+.error {
+  color: #D8000C;
+  background-color: #FFD2D2;
+}
+
+.pay-form {
+  width: 50%;
+}
+
+.pay-button {
+  display: block;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  height: 40px;
+  line-height: 40px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  background-color: #6772e5;
+  text-decoration: none;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+
+.pay-button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #7795f8;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+input,
+.StripeElement {
+  box-sizing: border-box;
+  display: block;
+  margin: 10px 0 20px 0;
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 1em;
+  font-family: "Source Code Pro", monospace;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+}
+
+input:focus,
+.StripeElement--focus {
+  box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px,
+    rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+
+.pay-linkback {
+  margin-top: 5vmin;
+}
+
+@media only screen and (max-width: 800px) {
+  .pay-info {
+    width: 90%;
+  }
+
+  .alert {
+    width: 90%;
+    text-align: center;
+  }
+
+  .pay-form {
+    width: 90%;
+  }
+}
